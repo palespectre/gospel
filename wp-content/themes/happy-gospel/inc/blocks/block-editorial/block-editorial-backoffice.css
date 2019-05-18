@@ -1,0 +1,45 @@
+.content {
+    padding: 1rem 0;
+}
+.editor-block-list__layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div[data-type='ec/block-editorial'] .backoffice-bloc {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+    div[data-type='ec/block-editorial']:nth-of-type(odd) .backoffice-bloc {
+        flex-direction: row;
+    }
+
+.backoffice-profile-image {
+    background-repeat: no-repeat;
+    max-width: 30rem;
+}    
+ div[data-type='ec/block-editorial']:nth-of-type(even) .backoffice-profile-content {
+    text-align: right;
+}
+    .backoffice-profile-content h3 {
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+    }
+
+.button-container {
+    width: 15rem;
+    margin-top: 1rem;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    color: rgb(4, 72, 155);
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+body.gutenberg-editor-page .editor-block-list__block {
+    margin: 5rem 0;
+    padding: 0;
+    max-width: 80% !important;
+}

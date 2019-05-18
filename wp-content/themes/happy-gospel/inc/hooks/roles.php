@@ -1,0 +1,3 @@
+<?php
+
+// Roles personnalisés
